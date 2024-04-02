@@ -35,15 +35,13 @@ in creating the Data Card.) -->
 - **Amanda Markert, NASA SERVIR Science Coordination Office:**
 
 
-
-
 ## Authorship
 ### Publishers
 #### Publishing Organization(s)
 <!-- scope: telescope -->
 <!-- info: Provide the names of the institution or organization responsible
 for publishing the dataset: -->
-Organization Name
+Organization Name:
 International Centre for Integrated Mountain Development (ICIMOD)
 
 
@@ -56,7 +54,7 @@ organizations belong: -->
 - Academic - Tech
 - Academic - Non-Tech (please specify)
 - Not-for-profit - Tech -->
-- Not-for-profit - Non-Tech (please specify)
+- Not-for-profit - Non-Tech
 <!-- - Individual (please specify)
 - Others (please specify) -->
 
@@ -104,10 +102,6 @@ the United States Forest Service
 
 (Usage Note: Provide the affiliation and year if different from publishing
 institutions or multiple affiliations.) -->
-- Name, Title, Affiliation, YYYY
-- Name, Title, Affiliation, YYYY
-- Name, Title, Affiliation, YYYY
-- Name, Title, Affiliation, YYYY
 
 - Kabir Uddin, ICIMOD
 - Mir A. Matin, ICIMOD
@@ -173,16 +167,16 @@ to include relevant information, considerations, and links to table(s) with
 more detailed breakdowns.) -->
 Category | Data
 --- | ---
-<!-- Size of Dataset | 123456 MB -->
 Number of Instances | 22 images
 Number of Fields | 123456789
 Labeled Classes | Water body, Snow and glacier, Forest, Riverbed, Built-up area, Cropland, Bare soil, Bare rock, Grassland 
+Other Characteristics | North American Profile of ISO 19115:2003
+Reference system identifier |  WGS 1984
+<!-- Size of Dataset | 123456 MB -->
 <!-- Number of Labels | 123456789
 Average Labeles Per Instance | 123456
 Algorithmic Labels | 123456789
 Human Labels | 123456789 -->
-Other Characteristics | North American Profile of ISO 19115:2003
-Reference system identifier |  WGS 1984
 
 <!-- **Above:** Provide a caption for the above table of visualization.
 
@@ -221,11 +215,11 @@ mode | -->
 
 <!-- **Additional Notes:** Add here. --> 
 
-### Sensitivity of Data
-#### Sensitivity Type(s)
+<!-- ### Sensitivity of Data
+#### Sensitivity Type(s) -->
 <!-- scope: telescope -->
 <!-- info: Select ***all applicable*** data types present in the dataset: -->
-- User Content
+<!-- - User Content
 - User Metadata
 - User Activity Data
 - Identifiable Data
@@ -237,16 +231,16 @@ mode | -->
 - Health Data
 - Children’s Data
 - None
-- Others (Please specify)
+- Others (Please specify) -->
 
-#### Field(s) with Sensitive Data
+<!-- #### Field(s) with Sensitive Data -->
 <!-- scope: periscope -->
 <!-- info: List fields in the dataset that contain S/PII, and specify if their
 collection was intentional or unintentional.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-**Intentional Collected Sensitive Data**
+<!-- **Intentional Collected Sensitive Data**
 
 (S/PII were collected as a part of the
 dataset creation process.)
@@ -272,7 +266,7 @@ Field Name | Type of S/PII
 
 **Additional Notes:** Add here
 
-#### Security and Privacy Handling
+#### Security and Privacy Handling -->
 <!-- scope: microscope -->
 <!-- info: Summarize the measures or steps to handle sensitive data in this
 dataset.
@@ -280,7 +274,7 @@ dataset.
 Use additional notes to capture any other relevant information or
 considerations. -->
 
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Method:** description
 
@@ -290,34 +284,34 @@ Summarize here. Include links and metrics where applicable.
 
 **Additional Notes:** Add here
 
-#### Risk Type(s)
+#### Risk Type(s) -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** risk types presenting from the
 dataset: -->
-- Direct Risk
+<!-- - Direct Risk
 - Indirect Risk
 - Residual Risk
 - No Known Risks
-- Others (Please Specify)
+- Others (Please Specify) -->
 
 #### Supplemental Link(s)
 <!-- scope: periscope -->
 <!-- info: Provide link(s) for documentation pertaining to sensitive data in
 the dataset: -->
-**Link Name or Document Type:** link
+**Link Name or Document Type:** https://rds.icimod.org/Home/DataDetail?metadataId=1972511
+
+<!-- **Link Name or Document Type:** link
 
 **Link Name or Document Type:** link
 
-**Link Name or Document Type:** link
-
-#### Risk(s) and Mitigation(s)
+#### Risk(s) and Mitigation(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize the steps taken to identify and mitigate risks from PII
 or sensitive information.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk type:** Description + Mitigations
 
@@ -328,12 +322,12 @@ Summarize here. Include links and metrics where applicable.
 **Additional Notes:** Add here
 
 ### Dataset Version and Maintenance
-#### Maintenance Status
+#### Maintenance Status -->
 <!-- scope: telescope -->
 <!-- info: Select **one:** -->
-**Regularly Updated** - New versions of the dataset
+<!-- **Regularly Updated** - New versions of the dataset
 have been or will continue to be
-made available. Status On Going
+made available. Status On Going -->
 
 <!-- **Actively Maintained** - No new versions will be made -->
 <!-- available, but this dataset will
@@ -348,7 +342,7 @@ addressed. -->
 <!-- **Deprecated** - This dataset is obsolete or is -->
 <!-- no longer being maintained. -->
 
-#### Version Details
+<!-- #### Version Details -->
 <!-- scope: periscope -->
 <!-- info: Provide details about **this** version of the dataset: -->
 **Current Version:** 1.0
@@ -593,6 +587,7 @@ out for, or other relevant information or considerations. -->
 ICIMOD. (2022). Land cover of HKH region [Data set]. ICIMOD. https://doi.org/10.26066/RDS.1972511
 
 **BiBTeX:**
+Research Book Chapter 
 ```
 @article{uddin2021regional,
   title={Regional land cover monitoring system for Hindu Kush Himalaya},
@@ -621,8 +616,8 @@ ICIMOD. (2022). Land cover of HKH region [Data set]. ICIMOD. https://doi.org/10.
 <!-- info: Provide links that describe documentation to access this
 dataset: -->
 - Dataset Website URL
-https://rds.icimod.org/Home/DataDetail?metadataId=1972511
-https://servirglobal.net/services/regional-land-cover-monitoring-system-hindu-kush-himalaya
+- https://rds.icimod.org/Home/DataDetail?metadataId=1972511
+- https://servirglobal.net/services/regional-land-cover-monitoring-system-hindu-kush-himalaya
 <!-- - GitHub URL -->
 
 <!-- #### Prerequisite(s) -->
@@ -1731,9 +1726,9 @@ Why or why not? -->
 anomalies or outliers? -->
 Google Earth Engine
 
-**Platforms, tools, or libraries**
+<!-- **Platforms, tools, or libraries**
 
-- Google Earth Engine
+- Google Earth Engine -->
 <!-- - Platform, tool, or library: Write description here
 - Platform, tool, or library: Write description here -->
 
