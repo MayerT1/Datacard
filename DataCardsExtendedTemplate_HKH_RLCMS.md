@@ -1,4 +1,8 @@
 # Regional Land Cover Monitoring System - Hindu Kush Himalaya (RLCMS-HKH)
+
+Consolidated and standardized land cover maps for the Hindu Kush Himalayan region (2000–2022) will support users' needs for 
+environmental management at the regional level.
+
 Land cover change is a significant contributor to environmental change. The degradation of forests and conversion of natural areas, forests, and farmlands to other land use impact ecosystem services and biodiversity significantly. Using multiple methodologies and input data sources, national agencies in different countries of the Hindu Kush Himalayan region have conducted land cover mapping at various times. Due to the differences in classification schema, methodologies, and input data sources used, currently available land cover data is not suitable for analysis of land cover changes over time. ICIMOD collaborated with SERVIR-Mekong at Asian Disaster Preparedness Center (ADPC), Afghanistan’s Ministry of Agriculture, Irrigation and Livestock, Bangladesh’s Forest Department, Nepal’s Forest Research and Training Centre, Myanmar’s Forest Department, SilvaCarbon, the Global Land Analysis and Discovery (GLAD) laboratory at the University of Maryland, and the United States Forest Services to develop the Regional Land Cover Monitoring System (RLCMS) for the HKH region. The system uses state-of-the-art remote sensing science and technology on the Google Earth Engine, and a standard set of input data sources to regularly generate high-quality land cover data at the regional level for the HKH, and at national levels for Afghanistan, Bangladesh, Myanmar, and Nepal. In developing the RLCMS, ICIMOD focused on collaboration and co-development with partner organizations to define different land cover typologies/classes, collect reference data samples, and validate results. Land cover maps for the HKH region spanning 2000–2021 have been produced under its SERVIR–HKH Initiative.
 
 #### Dataset Link
@@ -15,24 +19,8 @@ https://link.springer.com/chapter/10.1007/978-3-030-73569-2_6
 in creating the Data Card.) -->
 <!-- width: half -->
 
-- **Kabir Uddin, ICIMOD:** 
-- **Mir A. Matin, ICIMOD:**
-- **Nishanta Khanal, Spatial Informatics Group:**
-- **Sajana Maharjan, ICIMOD:**
-- **Birendra Bajracharya, ICIMOD:**
-- **Karis Tenneson, Spatial Informatics Group:**
-- **Ate Poortinga, Spaital Informatics Group:**
-- **Nguyen Hanh Quyen, Spaital Informatics Group:**
-- **Raja Ram Aryal, Forest Research and Training Centre:**
-- **David Saah, Spaital Informatics Group:**
-- **Walter Lee Ellenburg, NASA SERVIR Science Coordination Office:**
-- **Peter Potapov, Global Land Analysis and Discovery, University of Maryland:**
-- **Africa Flores-Anderson, NASA SERVIR Science Coordination Office:**
-- **Farrukh Chishtie, Spaital Informatics Group:**
-- **Khun San Aung, Asian Disaster Preparedness Center:**
-- **Timothy Mayer, NASA SERVIR Science Coordination Office:**
-- **Sudip Pradhan, ICIMOD:** (Owner / Contributor / Manager)
-- **Amanda Markert, NASA SERVIR Science Coordination Office:**
+
+- **Timothy Mayer, NASA SERVIR Science Coordination Office**
 
 
 ## Authorship
@@ -54,7 +42,7 @@ organizations belong: -->
 - Academic - Tech
 - Academic - Non-Tech (please specify)
 - Not-for-profit - Tech -->
-- Not-for-profit - Non-Tech
+- Not-for-profit
 <!-- - Individual (please specify)
 - Others (please specify) -->
 
@@ -149,11 +137,24 @@ Summarize here. Link to documents if available.
 
 ## Dataset Overview
 #### Data Subject(s)
+Landcover data set
 <!-- scope: telescope -->
 <!-- info: Select ***all applicable**** subjects contained the dataset: -->
 <!-- - Sensitive Data about people
 - Non-Sensitive Data about people -->
-- Data about natural phenomena
+- Keywords:
+- SERVIR-HKH
+- ICIMOD
+- HKH
+- Hindu Kush Himalayas
+- Afghanistan
+- Bangladesh
+- Bhutan
+- China
+- India
+- Myanmar
+- Nepal
+- Pakistan
 <!-- - Data about places and objects
 - Synthetically generated data
 - Data about systems or products and their behaviors
@@ -168,10 +169,12 @@ more detailed breakdowns.) -->
 Category | Data
 --- | ---
 Number of Instances | 22 images
-Number of Fields | 123456789
+Number of Fields | 9
 Labeled Classes | Water body, Snow and glacier, Forest, Riverbed, Built-up area, Cropland, Bare soil, Bare rock, Grassland 
-Other Characteristics | North American Profile of ISO 19115:2003
+Metadata standard name | North American Profile of ISO 19115:2003
 Reference system identifier |  WGS 1984
+Spatial representation type | Grid
+Character set | UTF8
 <!-- Size of Dataset | 123456 MB -->
 <!-- Number of Labels | 123456789
 Average Labeles Per Instance | 123456
