@@ -6,6 +6,7 @@ Land cover change is a significant contributor to environmental change. The degr
 <!-- width: half -->
 Dataset Link
 https://rds.icimod.org/Home/DataDetail?metadataId=1972511
+https://link.springer.com/chapter/10.1007/978-3-030-73569-2_6
 
 #### Data Card Author(s)
 <!-- info: Select **one role per** Data Card Author:
@@ -13,9 +14,28 @@ https://rds.icimod.org/Home/DataDetail?metadataId=1972511
 (Usage Note: Select the most appropriate choice to describe the author's role
 in creating the Data Card.) -->
 <!-- width: half -->
-- **Kabir Uddin, ICIMOD:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
+
+- **Kabir Uddin, ICIMOD:** 
+- **Mir A. Matin, ICIMOD:**
+- **Nishanta Khanal, Spatial Informatics Group:**
+- **Sajana Maharjan, ICIMOD:**
+- **Birendra Bajracharya, ICIMOD:**
+- **Karis Tenneson, Spatial Informatics Group:**
+- **Ate Poortinga, Spaital Informatics Group:**
+- **Nguyen Hanh Quyen, Spaital Informatics Group:**
+- **Raja Ram Aryal, Forest Research and Training Centre:**
+- **David Saah, Spaital Informatics Group:**
+- **Walter Lee Ellenburg, NASA SERVIR Science Coordination Office:**
+- **Peter Potapov, Global Land Analysis and Discovery, University of Maryland:**
+- **Africa Flores-Anderson, NASA SERVIR Science Coordination Office:**
+- **Farrukh Chishtie, Spaital Informatics Group:**
+- **Khun San Aung, Asian Disaster Preparedness Center:**
+- **Timothy Mayer, NASA SERVIR Science Coordination Office:**
+- **Sudip Pradhan, ICIMOD:** (Owner / Contributor / Manager)
+- **Amanda Markert, NASA SERVIR Science Coordination Office:**
+
+
+
 
 ## Authorship
 ### Publishers
@@ -67,16 +87,16 @@ Nepal’s Forest Research and Training Centre,
 Myanmar’s Forest Department,
 SilvaCarbon,
 the Global Land Analysis and Discovery (GLAD) laboratory at the University of Maryland,
-the United States Forest Services,
+the United States Forest Service
 
 #### Contact Detail(s)
 <!-- scope: periscope -->
 <!-- info: Provide pathways to contact dataset owners: -->
-- **Dataset Owner(s):** Provide the names of the dataset owners
-- **Affiliation:** Provide the affiliation of the dataset owners
-- **Contact:** Provide the email of the dataset owner
-- **Group Email:** Provide a link to the mailing-list@server.com for the dataset owner team
-- **Website:** Provide a link to the website for the dataset owner team
+- **Dataset Owner(s):** Regional Database System
+- **Affiliation:** ICIMOD
+- **Contact:** metadata@icimod.org
+- **Group Email:** metadata@icimod.org
+- **Website:** https://rds.icimod.org/Home/DataDetail?metadataId=1972511
 
 #### Author(s)
 <!-- scope: microscope -->
@@ -89,6 +109,25 @@ institutions or multiple affiliations.) -->
 - Name, Title, Affiliation, YYYY
 - Name, Title, Affiliation, YYYY
 
+- Kabir Uddin, ICIMOD
+- Mir A. Matin, ICIMOD
+- Nishanta Khanal, Spatial Informatics Group
+- Sajana Maharjan, ICIMOD
+- Birendra Bajracharya, ICIMOD
+- Karis Tenneson, Spatial Informatics Group
+- Ate Poortinga, Spaital Informatics Group
+- Nguyen Hanh Quyen, Spaital Informatics Group
+- Raja Ram Aryal, Forest Research and Training Centre
+- David Saah, Spaital Informatics Group
+- Walter Lee Ellenburg, NASA SERVIR Science Coordination Office,
+- Peter Potapov, Global Land Analysis and Discovery, University of Maryland
+- Africa Flores-Anderson, NASA SERVIR Science Coordination Office
+- Farrukh Chishtie, Spaital Informatics Group
+- Khun San Aung, Asian Disaster Preparedness Center
+- Timothy Mayer, NASA SERVIR Science Coordination Office
+- Sudip Pradhan, ICIMOD
+- Amanda Markert, NASA SERVIR Science Coordination Office
+
 ### Funding Sources
 #### Institution(s)
 <!-- scope: telescope -->
@@ -96,6 +135,7 @@ institutions or multiple affiliations.) -->
 International Centre for Integrated Mountain Development (ICIMOD)
 SERVIR Hindu Kush Himalaya,
 United States Agency for International Development
+National Aeronautics and Space Administration
 
 #### Funding or Grant Summary(ies)
 <!-- scope: periscope -->
@@ -117,14 +157,14 @@ Summarize here. Link to documents if available.
 #### Data Subject(s)
 <!-- scope: telescope -->
 <!-- info: Select ***all applicable**** subjects contained the dataset: -->
-- Sensitive Data about people
-- Non-Sensitive Data about people
+<!-- - Sensitive Data about people
+- Non-Sensitive Data about people -->
 - Data about natural phenomena
-- Data about places and objects
+<!-- - Data about places and objects
 - Synthetically generated data
 - Data about systems or products and their behaviors
 - Unknown
-- Others (Please specify)
+- Others (Please specify) -->
 
 #### Dataset Snapshot
 <!-- scope: periscope -->
@@ -133,28 +173,29 @@ to include relevant information, considerations, and links to table(s) with
 more detailed breakdowns.) -->
 Category | Data
 --- | ---
-Size of Dataset | 123456 MB
-Number of Instances | 123456
-Number of Fields | 123456
-Labeled Classes | 123456
-Number of Labels | 123456789
+<!-- Size of Dataset | 123456 MB -->
+Number of Instances | 22 images
+Number of Fields | 123456789
+Labeled Classes | Water body, Snow and glacier, Forest, Riverbed, Built-up area, Cropland, Bare soil, Bare rock, Grassland 
+<!-- Number of Labels | 123456789
 Average Labeles Per Instance | 123456
 Algorithmic Labels | 123456789
-Human Labels | 123456789
-Other Characteristics | 123456
+Human Labels | 123456789 -->
+Other Characteristics | North American Profile of ISO 19115:2003
+Reference system identifier |  WGS 1984
 
-**Above:** Provide a caption for the above table of visualization.
+<!-- **Above:** Provide a caption for the above table of visualization.
 
 **Additional Notes:** Add here.
 
 #### Content Description
 <!-- scope: microscope -->
 <!-- info: Provide a short description of the content in a data point: -->
-Summarize here. Include links if available.
+<!-- Summarize here. Include links if available. -->
 
-**Additional Notes:** Add here.
+<!-- **Additional Notes:** Add here. -->
 
-#### Descriptive Statistics
+<!-- #### Descriptive Statistics -->
 <!-- width: full -->
 <!-- info: Provide basic descriptive statistics for each field.
 
@@ -164,7 +205,7 @@ considerations.
 Usage Note: Some statistics will be relevant for numeric data, for not for
 strings. -->
 
-Statistic | Field Name | Field Name | Field Name | Field Name | Field Name | Field Name
+<!-- Statistic | Field Name | Field Name | Field Name | Field Name | Field Name | Field Name
 --- | --- | --- | --- | --- | --- | ---
 count |
 mean |
@@ -174,11 +215,11 @@ min |
 50% |
 75% |
 max |
-mode |
+mode | -->
 
-**Above:** Provide a caption for the above table or visualization.
+<!-- **Above:** Provide a caption for the above table or visualization. -->
 
-**Additional Notes:** Add here.
+<!-- **Additional Notes:** Add here. --> 
 
 ### Sensitivity of Data
 #### Sensitivity Type(s)
@@ -292,29 +333,29 @@ Summarize here. Include links and metrics where applicable.
 <!-- info: Select **one:** -->
 **Regularly Updated** - New versions of the dataset
 have been or will continue to be
-made available.
+made available. Status On Going
 
-**Actively Maintained** - No new versions will be made
-available, but this dataset will
+<!-- **Actively Maintained** - No new versions will be made -->
+<!-- available, but this dataset will
 be actively maintained,
 including but not limited to
-updates to the data.
+updates to the data. -->
 
-**Limited Maintenance** - The data will not be updated,
-but any technical issues will be
-addressed.
+<!-- **Limited Maintenance** - The data will not be updated, -->
+<!-- but any technical issues will be
+addressed. -->
 
-**Deprecated** - This dataset is obsolete or is
-no longer being maintained.
+<!-- **Deprecated** - This dataset is obsolete or is -->
+<!-- no longer being maintained. -->
 
 #### Version Details
 <!-- scope: periscope -->
 <!-- info: Provide details about **this** version of the dataset: -->
 **Current Version:** 1.0
 
-**Last Updated:** MM/YYYY
+<!-- **Last Updated:** MM/YYYY -->
 
-**Release Date:** MM/YYYY
+**Release Date:** 11/09/2022
 
 #### Maintenance Plan
 <!-- scope: microscope -->
@@ -322,72 +363,74 @@ no longer being maintained.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include links and metrics where applicable.
+Continual with annual map production
 
-**Versioning:** Summarize here. Include information about criteria for
+<!-- **Versioning:** Summarize here. Include information about criteria for
 versioning the dataset.
 
-**Updates:** Summarize here. Include information about criteria for refreshing
-or updating the dataset.
+<!-- **Updates:** Summarize here. Include information about criteria for refreshing -->
+<!-- or updating the dataset. -->
 
-**Errors:** Summarize here. Include information about criteria for refreshing
-or updating the dataset.
+<!-- **Errors:** Summarize here. Include information about criteria for refreshing -->
+<!-- or updating the dataset. -->
 
-**Feedback:** Summarize here. Include information about criteria for refreshing
-or updating the dataset.
+<!-- **Feedback:** Summarize here. Include information about criteria for refreshing -->
+<!-- or updating the dataset. --> -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Next Planned Update(s)
+<!-- #### Next Planned Update(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide details about the next planned update: -->
-**Version affected:** 1.0
+<!-- **Version affected:** 1.0 -->
 
-**Next data update:** MM/YYYY
+<!-- **Next data update:** MM/YYYY -->
 
-**Next version:** 1.1
+<!-- **Next version:** 1.1 -->
 
-**Next version update:** MM/YYYY
+<!-- **Next version update:** MM/YYYY -->
 
-#### Expected Change(s)
+<!-- #### Expected Change(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize the updates to the dataset and/or data that are expected
 on the next update.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-**Updates to Data:** Summarize here. Include links, charts, and visualizations
-as appropriate.
+<!-- **Updates to Data:** Summarize here. Include links, charts, and visualizations -->
+<!-- as appropriate. -->
 
-**Updates to Dataset:** Summarize here. Include links, charts, and
-visualizations as appropriate.
+<!-- **Updates to Dataset:** Summarize here. Include links, charts, and -->
+<!-- visualizations as appropriate. -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
 ## Example of Data Points
 #### Primary Data Modality
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
 - Image Data
-- Text Data
+<!-- - Text Data
 - Tabular Data
 - Audio Data
-- Video Data
+- Video Data -->
 - Time Series
-- Graph Data
+<!-- - Graph Data -->
 - Geospatial Data
-- Multimodel (please specify)
+<!-- - Multimodel (please specify)
 - Unknown
-- Others (please specify)
+- Others (please specify) -->
 
-#### Sampling of Data Points
+#### Sampling of Data Points -->
 <!-- scope: periscope -->
 <!-- info: Provide link(s) to data points or exploratory demos: -->
-- Demo Link
+<!-- - Demo Link
 - Typical Data Point Link
 - Outlier Data Point Link
 - Other Data Point Link
-- Other Data Point Link
+- Other Data Point Link -->
+
+https://geoapps.icimod.org/RLCMS
 
 #### Data Fields
 <!-- scope: microscope -->
@@ -396,24 +439,31 @@ visualizations as appropriate.
 (Usage Note: Describe each field in a data point. Optionally use this to show
 the example.) -->
 
-Field Name | Field Value | Description
---- | --- | ---
-Field Name | Field Value | Description
-Field Name | Field Value | Description
-Field Name | Field Value | Description
+Field Name | Field Value 
+--- | --- 
+Water body 	    | 1
+Snow and glacier| 2
+Forest		      | 3
+Riverbed  	    | 4
+Built-up area 	| 5
+Cropland 	      | 6
+Bare soil 	    | 7
+Bare rock  	    | 8
+Grassland 	    | 9
 
-**Above:** Provide a caption for the above table or visualization if used.
 
-**Additional Notes:** Add here
+**Above:** 
+Note: Grid value 0 refers to area outside the Hindu Kush Himalaya. 
+<!-- **Additional Notes:** Add here -->
 
-#### Typical Data Point
+<!-- #### Typical Data Point -->
 <!-- width: half -->
 <!-- info: Provide an example of a typical data point and describe what makes
 it typical.
 
 **Use additional notes to capture any other relevant information or
 considerations.** -->
-Summarize here. Include any criteria for typicality of data point.
+<!-- Summarize here. Include any criteria for typicality of data point.
 
 ```
 {'q_id': '8houtx',
@@ -431,14 +481,14 @@ Summarize here. Include any criteria for typicality of data point.
 
 **Additional Notes:** Add here
 
-#### Atypical Data Point
+#### Atypical Data Point -->
 <!-- width: half -->
 <!-- info: Provide an example of an outlier data point and describe what makes
 it atypical.
 
 **Use additional notes to capture any other relevant information or
 considerations.** -->
-Summarize here. Include any criteria for atypicality of data point.
+<!-- Summarize here. Include any criteria for atypicality of data point.
 
 ```
 {'q_id': '8houtx',
@@ -458,29 +508,29 @@ Summarize here. Include any criteria for atypicality of data point.
 
 ## Motivations & Intentions
 ### Motivations
-#### Purpose(s)
+#### Purpose(s) -->
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Monitoring
+<!-- - Monitoring
 - Research
 - Production
 - Others (please specify)
 
-#### Domain(s) of Application
+#### Domain(s) of Application -->
 <!-- scope: periscope -->
 <!-- info: Provide a list of key domains of application that the dataset has
 been designed for:<br><br>(Usage Note: Use comma-separated keywords.) -->
-For example: `Machine Learning`, `Computer Vision`, `Object Detection`.
+<!-- For example: `Machine Learning`, `Computer Vision`, `Object Detection`.
 
 `keyword`, `keyword`, `keyword`
 
-#### Motivating Factor(s)
+#### Motivating Factor(s) -->
 <!-- scope: microscope -->
 <!-- info: List the primary motivations for creating or curating this dataset:
 
 (Usage Note: use this to describe the problem space and corresponding
 motivations for the dataset.) -->
-For example:
+<!-- For example:
 
 - Bringing demographic diversity to imagery training data for object-detection models
 - Encouraging academics to take on second-order challenges of cultural representation in object detection
@@ -488,22 +538,22 @@ For example:
 Summarize motivation here. Include links where relevant.
 
 ### Intended Use
-#### Dataset Use(s)
+#### Dataset Use(s) -->
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Safe for production use
+<!-- - Safe for production use
 - Safe for research use
 - Conditional use - some unsafe applications
 - Only approved use
-- Others (please specify)
+- Others (please specify) -->
 
-#### Suitable Use Case(s)
+<!-- #### Suitable Use Case(s) -->
 <!-- scope: periscope -->
 <!-- info: Summarize known suitable and intended use cases of this dataset.
 
 Use additional notes to capture any specific patterns that readers should
 look out for, or other relevant information or considerations. -->
-**Suitable Use Case:** Summarize here. Include links where necessary.
+<!-- **Suitable Use Case:** Summarize here. Include links where necessary.
 
 **Suitable Use Case:** Summarize here. Include links where necessary.
 
@@ -511,13 +561,13 @@ look out for, or other relevant information or considerations. -->
 
 **Additional Notes:** Add here
 
-#### Unsuitable Use Case(s)
+#### Unsuitable Use Case(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize known unsuitable and unintended use cases of this dataset.
 
 Use additional notes to capture any specific patterns that readers should look
 out for, or other relevant information or considerations. -->
-**Unsuitable Use Case:** Summarize here. Include links where necessary.
+<!-- **Unsuitable Use Case:** Summarize here. Include links where necessary.
 
 **Unsuitable Use Case:** Summarize here. Include links where necessary.
 
@@ -525,11 +575,11 @@ out for, or other relevant information or considerations. -->
 
 **Additional Notes:** Add here
 
-#### Research and Problem Space(s)
+#### Research and Problem Space(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide a description of the specific problem space that this
 dataset intends to address. -->
-Summarize here. Include any specific research questions.
+<!-- Summarize here. Include any specific research questions. -->
 
 #### Citation Guidelines
 <!-- scope: microscope -->
@@ -538,63 +588,65 @@ and/or production.
 
 Use additional notes to capture any specific patterns that readers should look
 out for, or other relevant information or considerations. -->
-**Guidelines & Steps:** Summarize here. Include links where necessary.
+<!-- **Guidelines & Steps:** Summarize here. Include links where necessary. -->
+
+ICIMOD. (2022). Land cover of HKH region [Data set]. ICIMOD. https://doi.org/10.26066/RDS.1972511
 
 **BiBTeX:**
 ```
-@article{kuznetsova2020open,
-  title={The open images dataset v4},
-  author={Kuznetsova, Alina and Rom, Hassan and Alldrin, and others},
-  journal={International Journal of Computer Vision},
-  volume={128},
-  number={7},
-  pages={1956--1981},
-  year={2020},
+@article{uddin2021regional,
+  title={Regional land cover monitoring system for Hindu Kush Himalaya},
+  author={Uddin, Kabir and Matin, Mir A and Khanal, Nishanta and Maharjan, Sajana and Bajracharya, Birendra and Tenneson, Karis and Poortinga, Ate and Quyen, Nguyen Hanh and Aryal, Raja Ram and Saah, David and others},
+  journal={Earth Observation Science and Applications for Risk Reduction and Enhanced Resilience in Hindu Kush Himalaya Region: A Decade of Experience from SERVIR},
+  pages={103--125},
+  year={2021},
   publisher={Springer}
 }
 ```
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
 ## Access, Rentention, & Wipeout
 ### Access
 #### Access Type
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Internal - Unrestricted
-- Internal - Restricted
+<!-- - Internal - Unrestricted
+- Internal - Restricted -->
 - External - Open Access
-- Others (please specify)
+<!-- - Others (please specify) -->
 
 #### Documentation Link(s)
 <!-- scope: periscope -->
 <!-- info: Provide links that describe documentation to access this
 dataset: -->
 - Dataset Website URL
-- GitHub URL
+https://rds.icimod.org/Home/DataDetail?metadataId=1972511
+https://servirglobal.net/services/regional-land-cover-monitoring-system-hindu-kush-himalaya
+<!-- - GitHub URL -->
 
-#### Prerequisite(s)
+<!-- #### Prerequisite(s) -->
 <!-- scope: microscope -->
 <!-- info: Please describe any required training or prerequisites to access
 this dataset. -->
-For example:
+<!-- For example:
 
 This dataset requires membership in [specific] database groups:
 
 - Complete the [Mandatory Training]
 - Read [Data Usage Policy]
-- Initiate a Data Requesting by filing
+- Initiate a Data Requesting by filing -->
 
-#### Policy Link(s)
+<!-- #### Policy Link(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide a link to the access policy: -->
-- Direct download URL
+<!-- - Direct download URL
 - Other repository URL
 
 Code to download data:
 ```
 ...
-```
+``` -->
 
 #### Access Control List(s)
 <!-- scope: microscope -->
@@ -603,125 +655,155 @@ dataset. Include links where necessary.
 
 Use additional notes to capture any other information relevant to accessing
 the dataset. -->
-**Access Control List:** Write summary and notes here.
+**Access Control List:**
 
-**Access Control List:** Write summary and notes here.
+Data download/use agreement 
+The data have been collected and/or generated by various initiatives at ICIMOD. In collecting, acquiring, 
+managing, and sharing data, ICIMOD respects and abides by the related international and national laws, 
+third party intellectual property rights, confidentiality obligations, and contractual terms and conditions 
+of use as imposed by the provider of the data. 
+To access and use this data, you must agree to the following general terms. For specific access, use, and 
+distribution rights of the dataset, please refer to metadata details. 
+Terms and conditions: 
+- Users will cite and acknowledge ICIMOD when using the data.  
+Format for citation:  
+A. Published data 
+Author/Rights holder. (Year/Date). Title of data set (Version number/Edition) [Description 
+of form]. Place of production: Name of Producer. Retrieved from URL 
+Example:     ICIMOD. (2014) Glaciers of Nepal 1990. Kathmandu, Nepal: ICIMOD 
+B. Unpublished raw data from study, untitled work  
+Author. (Year/Date). [Description of study topic]. Unpublished raw data. 
+Example:     Bajracharya, S. R. (2009) [Glacier inventory]. Unpublished raw data. 
+- ICIMOD does not guarantee the quality, accuracy or veracity of the data, and data are shared on 
+an ‘as is’ basis. ICIMOD will not be responsible for errors or omissions in the data. (Reference: 
+ICIMOD Data Policy). However, ICIMOD endeavors to ensure that only high-quality data are 
+shared and disseminated through its institutional repository. 
+- ICIMOD shall not be obligated to notify the User of any updates, additions, or corrections to the 
+data in the future. 
+- ICIMOD will not be held liable for the consequences arising out of improper or incorrect use of 
+the data. 
+- No fee will be charged on redistribution of the data by the User. 
+- The permission to use the data shall not be considered the waiver of copyright or proprietary 
+right of ICIMOD and other data owners, wherever applicable.  
 
-**Access Control List:** Write summary and notes here.
+<!-- **Access Control List:** Write summary and notes here. -->
 
-**Additional Notes:** Add here
+<!-- **Access Control List:** Write summary and notes here. -->
+
+<!-- **Additional Notes:** Add here -->
 
 ### Retention
 #### Duration
 <!-- scope: periscope -->
 <!-- info: Specify the duration for which this dataset can be retained: -->
-Specify duration in days, months, or years.
+Free to use with attribution to the source. Suggested citation: ICIMOD. (2022). Land cover of HKH region [Data set]. ICIMOD. https://
+ doi.org/10.26066/RDS.1972511
 
-#### Policy Summary
+<!-- #### Policy Summary -->
 <!-- scope: microscope -->
 <!-- info: Summarize the retention policy for this dataset. -->
-**Retention Plan ID:** Write here
+<!-- **Retention Plan ID:** Write here -->
 
-**Summary:** Write summary and notes here
+<!-- **Summary:** Write summary and notes here -->
 
-#### Process Guide
+<!-- #### Process Guide -->
 <!-- scope: periscope -->
 <!-- info: Summarize any requirements and related steps to retain the dataset.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-For example:
+<!-- For example: -->
 
-This dataset compiles with [standard policy guidelines].
+<!-- This dataset compiles with [standard policy guidelines]. -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Exception(s) and Exemption(s)
+<!-- #### Exception(s) and Exemption(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize any exceptions and related steps to retain the dataset.
 Include links where necessary.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-**Exemption Code:** `ANONYMOUS_DATA` /
-`EMPLOYEE_DATA` / `PUBLIC_DATA` /
+<!-- **Exemption Code:** `ANONYMOUS_DATA` / -->
+<!-- `EMPLOYEE_DATA` / `PUBLIC_DATA` /
 `INTERNAL_BUSINESS_DATA` /
-`SIMULATED_TEST_DATA`
+`SIMULATED_TEST_DATA` -->
 
-**Summary:** Write summary and notes here.
+<!-- **Summary:** Write summary and notes here. -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-### Wipeout and Deletion
-#### Duration
+<!-- ### Wipeout and Deletion -->
+<!-- #### Duration -->
 <!-- scope: periscope -->
 <!-- info: Specify the duration after which this dataset should be deleted or
 wiped out: -->
-Specify duration in days, months, or years.
+<!-- Specify duration in days, months, or years. -->
 
-#### Deletion Event Summary
+<!-- #### Deletion Event Summary -->
 <!-- scope: microscope -->
 <!-- info: Summarize the sequence of events and allowable processing for data
 deletion.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-**Sequence of deletion and processing events:**
-
+<!-- **Sequence of deletion and processing events:** -->
+<!-- 
 - Summarize first event here
 - Summarize second event here
-- Summarize third event here
+- Summarize third event here -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Acceptable Means of Deletion
+<!-- #### Acceptable Means of Deletion -->
 <!-- scope: periscope -->
 <!-- info: List the acceptable means of deletion: -->
+<!-- - Write acceptable means of deletion
 - Write acceptable means of deletion
-- Write acceptable means of deletion
-- Write acceptable means of deletion
+- Write acceptable means of deletion -->
 
-#### Post-Deletion Obligations
+<!-- #### Post-Deletion Obligations -->
 <!-- scope: microscope -->
 <!-- info: Summarize the sequence of obligations after a deletion event.
 
 **Use additional notes to capture any other relevant information or
 considerations.** -->
-**Sequence of post-deletion obligations:**
-
+<!-- **Sequence of post-deletion obligations:** -->
+<!-- 
 - Summarize first obligation here
 - Summarize second obligation here
-- Summarize third obligation here
+- Summarize third obligation here -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Operational Requirement(s)
+<!-- #### Operational Requirement(s) -->
 <!-- scope: periscope -->
 <!-- info: List any wipeout integration operational requirements: -->
-**Wipeout Integration Operational Requirements:**
-
+<!-- **Wipeout Integration Operational Requirements:** -->
+<!-- 
 - Write first requirement here
 - Write second requirement here
-- Write third requirement here
+- Write third requirement here -->
 
-#### Exceptions and Exemptions
+<!-- #### Exceptions and Exemptions -->
 <!-- scope: microscope -->
 <!-- info: Summarize any exceptions and related steps to a deletion event.
 
 **Use additional notes to capture any other relevant information or
 considerations.** -->
-**Policy Exception bug:** [bug]
+<!-- **Policy Exception bug:** [bug] -->
 
-**Summary:** Write summary and notes here
+<!-- **Summary:** Write summary and notes here -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-## Provenance
-### Collection
-#### Method(s) Used
+<!-- ## Provenance -->
+<!-- ### Collection -->
+<!-- #### Method(s) Used -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used to collect data: -->
-- API
+<!-- - API
 - Artificially Generated
 - Crowdsourced - Paid
 - Crowdsourced - Volunteer
@@ -731,7 +813,7 @@ considerations.** -->
 - Taken from other existing datasets
 - Unknown
 - To be determined
-- Others (please specify)
+- Others (please specify) -->
 
 #### Methodology Detail(s)
 <!-- scope: periscope -->
@@ -744,17 +826,18 @@ considerations.
 type.) -->
 **Collection Type**
 
-**Source:** Describe here. Include links where available.
+**Source:** 
+Google Earth Engine
 
-**Platform:** [Platform Name], Describe platform here. Include links where relevant.
+**Platform:** Google Earth Engine
 
-**Is this source considered sensitive or high-risk?** [Yes/No]
+**Is this source considered sensitive or high-risk?** [No]
 
-**Dates of Collection:** [MMM YYYY - MMM YYYY]
+<!-- **Dates of Collection:** [MMM YYYY - MMM YYYY] -->
 
-**Primary modality of collection data:**
+<!-- **Primary modality of collection data:** -->
 
-*Usage Note: Select one for this collection type.*
+<!-- *Usage Note: Select one for this collection type.*
 
 - Image Data
 - Text Data
@@ -766,11 +849,11 @@ type.) -->
 - Geospatial Data
 - Unknown
 - Multimodal (please specify)
-- Others (please specify)
+- Others (please specify) -->
 
-**Update Frequency for collected data:**
+<!-- **Update Frequency for collected data:** -->
 
-*Usage Note: Select one for this collection type.*
+<!-- *Usage Note: Select one for this collection type.*
 
 - Yearly
 - Quarterly
@@ -780,40 +863,40 @@ type.) -->
 - Daily
 - Hourly
 - Static
-- Others (please specify)
+- Others (please specify) -->
 
-**Additional Links for this collection:**
+<!-- **Additional Links for this collection:** -->
 
-- [Access Policy]
+<!-- - [Access Policy]
 - [Wipeout Policy]
-- [Retention Policy]
+- [Retention Policy] -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Source Description(s)
+<!-- #### Source Description(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide a description of each upstream source of data.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
+<!-- - **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
 - **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
+- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant. -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Collection Cadence
+<!-- #### Collection Cadence -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable**: -->
-**Static:** Data was collected once from single or multiple sources.
+<!-- **Static:** Data was collected once from single or multiple sources.
 
 **Streamed:** Data is continuously acquired from single or multiple sources.
 
 **Dynamic:** Data is updated regularly from single or multiple sources.
 
-**Others:** Please specify
+**Others:** Please specify -->
 
-#### Data Integration
+<!-- #### Data Integration -->
 <!-- scope: periscope -->
 <!-- info: List all fields collected from different sources, and specify if
 they were included or excluded from the dataset.
@@ -823,31 +906,31 @@ capture any other relevant information or considerations.
 
 (Usage Note: Duplicate and complete the following for each upstream
 source.) -->
-**Source**
+<!-- **Source** -->
 
-**Included Fields**
+<!-- **Included Fields** -->
 
-Data fields that were collected and are included in the dataset.
-
-Field Name | Description
---- | ---
-Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
-Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
-
-**Additional Notes:** Add here
-
-**Excluded Fields**
-
-Data fields that were collected but are excluded from the dataset.
+<!-- Data fields that were collected and are included in the dataset.
 
 Field Name | Description
 --- | ---
 Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
+Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant. -->
+
+<!-- **Additional Notes:** Add here -->
+
+<!-- **Excluded Fields** -->
+
+<!-- Data fields that were collected but are excluded from the dataset.
+
+Field Name | Description
+--- | ---
 Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant.
+Field Name | Describe here. Include links, data examples, metrics, visualizations where relevant. -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here -->
 
-#### Data Processing
+<!-- #### Data Processing -->
 <!-- scope: microscope -->
 <!-- info: Summarize how data from different sources or methods aggregated,
 processed, or connected.
@@ -857,7 +940,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate and complete the following for each source OR
 collection method.) -->
-**Collection Method or Source**
+<!-- **Collection Method or Source**
 
 **Description:** Describe here. Include links where relevant.
 
@@ -865,46 +948,46 @@ collection method.) -->
 
 **Tools or libraries:** Describe here. Include links where relevant.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
 
-### Collection Criteria
-#### Data Selection
+<!-- ### Collection Criteria
+#### Data Selection -->
 <!-- scope: telescope -->
 <!-- info: Summarize the data selection criteria.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
+<!-- - **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
 - **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
-- **Collection Method of Source:** Summarize data selection criteria here. Include links where available.
-
+- **Collection Method of Source:** Summarize data selection criteria here. Include links where available. -->
+<!-- 
 **Additional Notes:** Add here
 
-#### Data Inclusion
+#### Data Inclusion -->
 <!-- scope: periscope -->
 <!-- info: Summarize the data inclusion criteria.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-- **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
+<!-- - **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
 - **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
 - **Collection Method of Source:** Summarize data inclusion criteria here. Include links where available.
 
 **Additional Notes:** Add here
 
-#### Data Exclusion
+#### Data Exclusion -->
 <!-- scope: microscope -->
 <!-- info: Summarize the data exclusion criteria.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-- **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
+<!-- - **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
 - **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
 - **Collection Method of Source:** Summarize data exclusion criteria here. Include links where available.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
 
-### Relationship to Source
+<!-- ### Relationship to Source
 #### Use & Utility(ies)
 <!-- scope: telescope -->
 <!-- info: Describe how the resulting dataset is aligned with the purposes,
@@ -914,13 +997,13 @@ Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate and complete the following for each source type.) -->
-- **Source Type:** Summarize here. Include links where available.
+<!-- - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
 **Additional Notes:** Add here
 
-#### Benefit and Value(s)
+#### Benefit and Value(s) --> -->
 <!-- scope: periscope -->
 <!-- info: Summarize the benefits of the resulting dataset to its consumers,
 compared to the upstream source(s).
@@ -929,51 +1012,51 @@ Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate and complete the following for each source type.) -->
-- **Source Type:** Summarize here. Include links where available.
+<!-- - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
 **Additional Notes:** Add here
 
-#### Limitation(s) and Trade-Off(s)
+#### Limitation(s) and Trade-Off(s) -->
 <!-- scope: microscope -->
 <!-- info: What are the limitations of the resulting dataset to its consumers,
 compared to the upstream source(s)?
 
 Break down by source type.<br><br>(Usage Note: Duplicate and complete the
 following for each source type.) -->
-- **Source Type:** Summarize here. Include links where available.
+<!-- - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
-### Version and Maintenance
+### Version and Maintenance -->
 <!-- info: Fill this next row if this is not the first version of the dataset,
 and there is no data card available for the first version -->
-#### First Version
+<!-- #### First Version -->
 <!-- scope: periscope -->
 <!-- info: Provide a **basic description of the first version** of this
 dataset. -->
-- **Release date:** MM/YYYY
+<!-- - **Release date:** MM/YYYY
 - **Link to dataset:** [Dataset Name + Version]
 - **Status:** [Select one: Actively Maintained/Limited Maintenance/Deprecated]
 - **Size of Dataset:** 123 MB
-- **Number of Instances:** 123456
+- **Number of Instances:** 123456 -->
 
-#### Note(s) and Caveat(s)
+<!-- #### Note(s) and Caveat(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize the caveats or nuances of the first version of this
 dataset that may affect the use of the current version.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Additional Notes:** Add here
 
-#### Cadence
+#### Cadence -->
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Yearly
+<!-- - Yearly
 - Quarterly
 - Monthly
 - Biweekly
@@ -981,19 +1064,19 @@ Summarize here. Include links where available.
 - Daily
 - Hourly
 - Static
-- Others (please specify)
+- Others (please specify) -->
 
-#### Last and Next Update(s)
+<!-- #### Last and Next Update(s) -->
 <!-- scope: periscope -->
 <!-- info: Please describe the update schedule: -->
-- **Date of last update:** DD/MM/YYYY
+<!-- - **Date of last update:** DD/MM/YYYY
 - **Total data points affected:** 12345
 - **Data points updated:** 12345
 - **Data points added:** 12345
 - **Data points removed:** 12345
-- **Date of next update:** DD/MM/YYYY
+- **Date of next update:** DD/MM/YYYY -->
 
-#### Changes on Update(s)
+<!-- #### Changes on Update(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize the changes that occur when the dataset is refreshed.
 
@@ -1001,18 +1084,18 @@ Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate and complete the following for each source type.) -->
-- **Source Type:** Summarize here. Include links where available.
+<!-- - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 - **Source Type:** Summarize here. Include links where available.
 
 **Additional Notes:** Add here
 
 ## Human and Other Sensitive Attributes
-#### Sensitive Human Attribute(s)
+#### Sensitive Human Attribute(s) -->
 <!-- scope: telescope -->
 <!-- info: Select **all attributes** that are represented (directly or
 indirectly) in the dataset. -->
-- Gender
+<!-- - Gender
 - Socio-economic status
 - Geography
 - Language
@@ -1021,14 +1104,14 @@ indirectly) in the dataset. -->
 - Experience or Seniority
 - Others (please specify)
 
-#### Intentionality
+#### Intentionality -->
 <!-- scope: periscope -->
 <!-- info: List fields in the dataset that contain human attributes, and
 specify if their collection was intentional or unintentional.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-**Intentionally Collected Attributes**
+<!-- **Intentionally Collected Attributes**
 
 Human attributes were labeled or collected as a part of the dataset creation
 process.
@@ -1052,27 +1135,27 @@ Field Name | Human Attributed Collected
 
 **Additional Notes:** Add here
 
-#### Rationale
+#### Rationale -->
 <!-- scope: microscope -->
 <!-- info: Describe the motivation, rationale, considerations or approaches
 that caused this dataset to include the indicated human attributes.
 
 Summarize why or how this might affect the use of the dataset. -->
-Summarize here. Include links, table, and media as relevant.
+<!-- Summarize here. Include links, table, and media as relevant.
 
-#### Source(s)
+#### Source(s) -->
 <!-- scope: periscope -->
 <!-- info: List the sources of the human attributes.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-- **Human Attribute:** Sources
+<!-- - **Human Attribute:** Sources
 - **Human Attribute:** Sources
 - **Human Attribute:** Sources
 
 **Additional Notes:** Add here
 
-#### Methodology Detail(s)
+#### Methodology Detail(s) -->
 <!-- scope: microscope -->
 <!-- info: Describe the methods used to collect human attributes in the
 dataset.
@@ -1082,7 +1165,7 @@ considerations.
 
 (Usage Note: Duplicate and complete the following for each human
 attribute.) -->
-
+<!-- 
 **Human Attribute Method:** Describe the collection method here. Include links where necessary
 
 **Collection task:** Describe the task here. Include links where necessary
@@ -1095,7 +1178,7 @@ attribute.) -->
 
 **Additional Notes:** Add here
 
-#### Distribution(s)
+#### Distribution(s) -->
 <!-- width: full -->
 <!-- info: Provide basic descriptive statistics for each human attribute,
 noting key takeaways in the caption.
@@ -1105,7 +1188,7 @@ considerations.
 
 (Usage Note: Duplicate and complete the following for each human
 attribute.) -->
-Human Attribute | Label or Class | Label or Class | Label or Class | Label or Class
+<!-- Human Attribute | Label or Class | Label or Class | Label or Class | Label or Class
 --- | --- | --- | --- | ---
 Count | 123456 | 123456 | 123456 | 123456
 [Statistic] | 123456 | 123456 | 123456 | 123456
@@ -1115,7 +1198,7 @@ Count | 123456 | 123456 | 123456 | 123456
 **Above:** Provide a caption for the above table or visualization.
 **Additional Notes:** Add here
 
-#### Known Correlations
+#### Known Correlations -->
 <!-- scope: periscope -->
 <!-- info: Describe any known correlations with the indicated sensitive
 attributes in this dataset.
@@ -1124,7 +1207,7 @@ Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate for each known correlation.) -->
-[`field_name`, `field_name`]
+<!-- [`field_name`, `field_name`]
 
 **Description:** Summarize here. Include visualizations, metrics, or links
 where necessary.
@@ -1134,7 +1217,7 @@ links where necessary.
 
 **Additional Notes:** add here
 
-#### Risk(s) and Mitigation(s)
+#### Risk(s) and Mitigation(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize systemic or residual risks, performance expectations,
 trade-offs and caveats because of human attributes in this dataset.
@@ -1143,7 +1226,7 @@ Use additional notes to capture any other relevant information or
 considerations.
 
 Usage Note: Duplicate and complete the following for each human attribute. -->
-**Human Attribute**
+<!-- **Human Attribute**
 
 Summarize here. Include links and metrics where applicable.
 
@@ -1160,20 +1243,20 @@ visualizations, metrics, or links where necessary.
 
 ## Extended Use
 ### Use with Other Data
-#### Safety Level
+#### Safety Level -->
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Safe to use with other data
+<!-- - Safe to use with other data
 - Conditionally safe to use with other data
 - Should not be used with other data
 - Unknown
 - Others (please specify)
 
-#### Known Safe Dataset(s) or Data Type(s)
+#### Known Safe Dataset(s) or Data Type(s) -->
 <!-- scope: periscope -->
 <!-- info: List the known datasets or data types and corresponding
 transformations that **are safe to join or aggregate** this dataset with. -->
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
+<!-- **Dataset or Data Type:** Summarize here. Include visualizations, metrics,
 or links where necessary.
 
 **Dataset or Data Type:** Summarize here. Include visualizations, metrics,
@@ -1182,26 +1265,26 @@ or links where necessary.
 **Dataset or Data Type:** Summarize here. Include visualizations, metrics,
 or links where necessary.
 
-#### Best Practices
+#### Best Practices -->
 <!-- scope: microscope -->
 <!-- info: Summarize best practices for using this dataset with other datasets
 or data types.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include visualizations, metrics, demonstrative examples,
+<!-- Summarize here. Include visualizations, metrics, demonstrative examples,
 or links where necessary.
 
 **Additional Notes:** Add here
 
-#### Known Unsafe Dataset(s) or Data Type(s)
+#### Known Unsafe Dataset(s) or Data Type(s) -->
 <!-- scope: periscope -->
 <!-- info: Fill this out if you selected "Conditionally safe to use with other
 datasets" or "Should not be used with other datasets":
 
 List the known datasets or data types and corresponding transformations that
 are **unsafe to join or aggregate** with this dataset. -->
-**Dataset or Data Type:** Summarize here. Include visualizations, metrics,
+<!-- **Dataset or Data Type:** Summarize here. Include visualizations, metrics,
 or links where necessary.
 
 **Dataset or Data Type:** Summarize here. Include visualizations, metrics,
@@ -1210,7 +1293,7 @@ or links where necessary.
 **Dataset or Data Type:** Summarize here. Include visualizations, metrics,
 or links where necessary.
 
-#### Limitation(s) and Recommendation(s)
+#### Limitation(s) and Recommendation(s) -->
 <!-- scope: microscope -->
 <!-- info: Fill this out if you selected "Conditionally safe to use with
 other datasets" or "Should not be used with
@@ -1221,7 +1304,7 @@ dataset is conjoined with other datasets.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Limitation type:** Dataset or data type, description and recommendation.
 
@@ -1232,43 +1315,43 @@ Summarize here. Include links and metrics where applicable.
 **Additional Notes:** Add here
 
 ### Forking & Sampling
-#### Safety Level
+#### Safety Level -->
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
-- Safe to form and/or sample
+<!-- - Safe to form and/or sample
 - Conditionally safe to fork and/or sample
 - Should not be forked and/or sampled
 - Unknown
-- Others (please specify)
+- Others (please specify) -->
 
 #### Acceptable Sampling Method(s)
 <!-- scope: periscope -->
 <!-- info: Select **all applicable** acceptable methods to sample this
 dataset: -->
-- Cluster Sampling
+<!-- - Cluster Sampling
 - Haphazard Sampling
 - Multi-stage sampling
 - Random Sampling
-- Retrospective Sampling
+- Retrospective Sampling -->
 - Stratified Sampling
-- Systematic Sampling
+<!-- - Systematic Sampling
 - Weighted Sampling
 - Unknown
 - Unsampled
-- Others (please specify)
+- Others (please specify) -->
 
-#### Best Practice(s)
+<!-- #### Best Practice(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize the best practices for forking or sampling this dataset.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include links, figures, and demonstrative examples where
-available.
+<!-- Summarize here. Include links, figures, and demonstrative examples where
+available. -->
 
-**Additional Notes:** Add here
+<!-- **Additional Notes:** Add here
 
-#### Risk(s) and Mitigation(s)
+#### Risk(s) and Mitigation(s) -->
 <!-- scope: periscope -->
 <!-- info: Fill this out if you selected "Conditionally safe to fork and/or
 sample" or "Should not be forked and/or sampled":
@@ -1278,7 +1361,7 @@ when applied to the dataset.
 
 Use additional notes to capture any other
 relevant information or considerations. -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** [Description + Mitigations]
 
@@ -1288,7 +1371,7 @@ Summarize here. Include links and metrics where applicable.
 
 **Additional Notes:** Add here
 
-#### Limitation(s) and Recommendation(s)
+#### Limitation(s) and Recommendation(s) -->
 <!-- scope: microscope -->
 <!-- info: Fill this out if you selected "Conditionally safe to fork and/or
 sample" or "Should not be forked and/or sample":
@@ -1298,7 +1381,7 @@ or sampling the dataset and corresponding recommendations.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Limitation Type:** [Description + Recommendation]
 
@@ -1306,27 +1389,27 @@ Summarize here. Include links and metrics where applicable.
 
 **Limitation Type:** [Description + Recommendation]
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
 
-### Use in ML or AI Systems
-#### Dataset Use(s)
+<!-- ### Use in ML or AI Systems
+#### Dataset Use(s) -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** -->
-- Training
+<!-- - Training
 - Testing
 - Validation
 - Development or Production Use
 - Fine Tuning
-- Others (please specify)
+- Others (please specify) -->
 
-#### Notable Feature(s)
+<!-- #### Notable Feature(s) -->
 <!-- scope: periscope -->
 <!-- info: Describe any notable feature distributions or relationships between
 individual instances made explicit.
 
 Include links to servers where readers can explore the data on their own. -->
 
-**Exploration Demo:** [Link to server or demo.]
+<!-- **Exploration Demo:** [Link to server or demo.]
 
 **Notable Field Name:** Describe here. Include links, data examples, metrics,
 visualizations where relevant.
@@ -1335,14 +1418,14 @@ visualizations where relevant.
 
 **Additional Notes:** Add here
 
-#### Usage Guideline(s)
+#### Usage Guideline(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize usage guidelines or policies that consumers should be
 aware of.
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-**Usage Guidelines:** Summarize here. Include links where necessary.
+<!-- **Usage Guidelines:** Summarize here. Include links where necessary.
 
 **Approval Steps:** Summarize here. Include links where necessary.
 
@@ -1351,14 +1434,14 @@ this dataset.
 
 **Additional Notes:** Add here
 
-#### Distribution(s)
+#### Distribution(s) -->
 <!-- scope: periscope -->
 <!-- info: Describe the recommended splits and corresponding criteria.
 
 Use additional notes to capture any other
 relevant information or considerations. -->
 
-Set | Number of data points
+<!-- Set | Number of data points
 --- | ---
 Train | 62,563
 Test | 62,563
@@ -1369,7 +1452,7 @@ Dev | 62,563
 
 **Additional Notes:** Add here
 
-#### Known Correlation(s)
+#### Known Correlation(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize any known correlations with
 the indicated features in this dataset.
@@ -1379,7 +1462,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate for each known
 correlation.) -->
-`field_name`, `field_name`
+<!-- `field_name`, `field_name`
 
 **Description:** Summarize here. Include
 visualizations, metrics, or links where
@@ -1395,13 +1478,13 @@ available.
 
 **Additional Notes:** Add here
 
-#### Split Statistics
+#### Split Statistics -->
 <!-- scope: periscope -->
 <!-- width: full -->
 <!-- info: Provide the sizes of each split. As appropriate, provide any
 descriptive statistics for features. -->
 
-Statistic | Train | Test | Valid | Dev
+<!-- Statistic | Train | Test | Valid | Dev
 --- | --- | --- | --- | ---
 Count | 123456 | 123456 | 123456 | 123456
 Descriptive Statistic | 123456 | 123456 | 123456 | 123456
@@ -1410,15 +1493,15 @@ Descriptive Statistic | 123456 | 123456 | 123456 | 123456
 
 **Above:** Caption for table above.
 
-## Transformations
+## Transformations -->
 <!-- info: Fill this section if any transformations were applied in the
 creation of your dataset. -->
-### Synopsis
-#### Transformation(s) Applied
+<!-- ### Synopsis
+#### Transformation(s) Applied -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** transformations
 that were applied to the dataset. -->
-- Anomaly Detection
+<!-- - Anomaly Detection
 - Cleaning Mismatched Values
 - Cleaning Missing Values
 - Converting Data Types
@@ -1426,9 +1509,9 @@ that were applied to the dataset. -->
 - Dimensionality Reduction
 - Joining Input Sources
 - Redaction or Anonymization
-- Others (Please specify)
+- Others (Please specify) -->
 
-#### Field(s) Transformed
+<!-- #### Field(s) Transformed -->
 <!-- scope: periscope -->
 <!-- info: Provide the fields in the dataset that
 were transformed.
@@ -1441,7 +1524,7 @@ considerations.
 the following for each transformation
 type applied. Include the data types to
 which fields were transformed.) -->
-**Transformation Type**
+<!-- **Transformation Type**
 
 Field Name | Source & Target
 --- | ---
@@ -1451,7 +1534,7 @@ Field Name | Source Field: Target Field
 
 **Additional Notes:** Add here
 
-#### Library(ies) and Method(s) Used
+#### Library(ies) and Method(s) Used -->
 <!-- scope: microscope -->
 <!-- info: Provide a description of the methods
 used to transform or process the
@@ -1464,7 +1547,7 @@ considerations.
 (Usage Note: Duplicate and complete
 the following for each transformation
 type applied.) -->
-**Transformation Type**
+<!-- **Transformation Type**
 
 **Method:** Describe the transformation
 method here. Include links where
@@ -1482,13 +1565,13 @@ visualizations where available.
 
 **Additional Notes:** Add here
 
-### Breakdown of Transformations
+### Breakdown of Transformations -->
 <!-- info: Fill out relevant rows. -->
-#### Cleaning Missing Value(s)
+<!-- #### Cleaning Missing Value(s) -->
 <!-- scope: telescope -->
 <!-- info: Which fields in the data were missing
 values? How many? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or description
 
@@ -1496,11 +1579,11 @@ Summarize here. Include links where available.
 
 **Field Name:** Count or description
 
-#### Method(s) Used
+#### Method(s) Used -->
 <!-- scope: periscope -->
 <!-- info: How were missing values cleaned?
 What other choices were considered? -->
-Summarize here. Include links where necessary.
+<!-- Summarize here. Include links where necessary.
 
 **Platforms, tools, or libraries**
 
@@ -1508,13 +1591,13 @@ Summarize here. Include links where necessary.
 - Platform, tool, or library: Write description here
 - Platform, tool, or library: Write description here
 
-#### Comparative Summary
+#### Comparative Summary -->
 <!-- scope: microscope -->
 <!-- info: Why were missing values cleaned using
 this method (over others)? Provide
 comparative charts showing before
 and after missing values were cleaned. -->
-Summarize here. Include links, tables, visualizations where available.
+<!-- Summarize here. Include links, tables, visualizations where available.
 
 **Field Name** | **Diff**
 --- | ---
@@ -1526,42 +1609,42 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risk(s)
+#### Residual & Other Risk(s) -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 - **Risk Type:** Description + Mitigations
 - **Risk Type:** Description + Mitigations
 - **Risk Type:** Description + Mitigations
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were
 made? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Cleaning Mismatched Value(s)
+#### Cleaning Mismatched Value(s) -->
 <!-- scope: telescope -->
 <!-- info: Which fields in the data were corrected
 for mismatched values? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
 **Field Name:** Count or Description
 
-**Field Name:** Count or Description
+**Field Name:** Count or Description -->
 
 #### Method(s) Used
 <!-- scope: periscope -->
@@ -1579,7 +1662,19 @@ analysis demonstrating before and
 after values were cleaned. -->
 Summarize here. Include links where available.
 
-**Field Name** | **Diff**
+Google Earth Engine (GEE) has archived Landsat scenes that have undergone multiple procedures such as computation of the sensor radiance, top-of-atmosphere (TOA) reflectance, surface reflectance (SR), cloud score, and cloud-free composites (Sidhu et al. 2018). The yearly mapping of the HKH land cover from 2000 to 2018 was done using images from Landsat 5 with the Thematic Mapper (TM) sensor, Landsat 7 with the Enhanced Thematic Mapper (ETM+) sensor, and Landsat 8 with the Operational Land Imager (OLI) sensor. However, a few more important image preprocessing steps still needed to be applied (Saah et al. 2020; Khanal et al. 2020) to these Landsat images to minimize solar illumination, atmospheric noise, and topographic effects. In brief, removing clouds from the images was an obligatory step in Landsat image processing. In this cloud-removal step, the pixel-QA band and a cloud-core algorithm that used the spectral and thermal properties of clouds were used to identify and remove those pixels with cloud cover from the imagery. Besides the cloud area, the cloud shadows were removed in order to avoid misclassification of the areas. For that, the Temporal Dark Outlier Mask (TDOM) algorithm was used (Housman et al. 2018). The pixel quality attributes generated from the CFMASK algorithm (pixel-qa band) were also used for shadow masking (Foga et al. 2017; Scaramuzza et al. 2011;
+Housman et al. 2018). During the image processing, the correction of the bidirectional reflectance distribution function (BRDF) was also applied following an algorithm developed by Roy et al. (2016). As most of the HKH region has a complex terrain, topographic correction was done to alleviate the illumination effects from the topographic position, aspect, and slope that divert reflectance values in the case of similar features within different territories (Carrasco et al. 2019; Riaño et al. 2003; Tokola et al. 2001). Once the process of image correction
+was completed, 80 covariates were generated based on the Landsat annual composites, and SRTM DEM was then used as input to supervise the classification. Thus, the image indices collectively provided a critical parameter for classifying land cover, and this has a noticeable correlation with the particular land cover association (Zhao et al. 2017; da Silva et al. 2019).
+
+Creating Image Indices and Covariates
+Image indices and covariates are synthetic image layers usually created by multispectral satellite imagery. These indices and covariates often provide a unique distinguished value on a particular land cover that is not found in any of the other individual band. Typically, a wide range of ecological information and plant characteristics is recognized through various indices as it increases the separability of the classes of interest by improving the spectral information. Usually, mapping in the HKH landscape is a challenging task because of topographic variations and heterogenic land cover patterns. The satellite image bands and indices usually emphasize a specific phenomenon that is present in particular land cover classes. Because of that, a set of image bands and covariance matrices is required for accurate classification. In order to effectively classify the land cover map for the HKH, typical Landsat bands—Band 1, Band 2, Band 3, Band 4, Band 5, Band 6,
+and Band 7—and the multiple indices were used. The indices and covariates were selected from a large number of image matrices through analysis of their importance. The indices used were: normalized difference vegetation index (NDVI); normalized difference moisture index (NDMI); soil adjusted vegetation index (SAVI); atmospherically resistant vegetation index (ARVI); enhanced vegetation index (EVI); green chlorophyll index (GCI); normalized difference water index (NDWI); and bare soil index (BSI) and the SRTM DEM-based slope, aspect were used as input in the regression tree for land cover primitives formation by machine learning. All of these indices and covariates, together with land cover training sets, generated a higher probability of classifying the primitives. The definition of the above indices and corresponding references is available at the index database website (Henrich et al. 2009; Henrich and Brüser 2012)
+
+Primitives Generation by Machine Learning
+A supervised machine learning random forest algorithm was applied to produce land cover primitives. For each primitive, the corresponding confidence (0–100) layer was generated. To reduce computational resources, the process of feature importance was performed to identify the covariates and indices with a stronger influence for each primitive. This gave a list of 15–30 bands for each classification
+that had the most impact on the results, which was then used as input for the classifier. Finally, generating land cover primitives, a random forest classifier was applied using the imported training sets, the Landsat image, and associated related raster layers
+
+<!-- **Field Name** | **Diff**
 --- | ---
 Field Name | Before: After
 Field Name | Before: After
@@ -1589,12 +1684,12 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risk(s)
+#### Residual & Other Risk(s) -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
@@ -1602,52 +1697,52 @@ Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were made? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Anomalies
+#### Anomalies -->
 <!-- scope: telescope -->
 <!-- info: How many anomalies or outliers were
 detected?
 If at all, how were detected anomalies
 or outliers handled?
 Why or why not? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
 **Field Name:** Count or Description
 
-**Field Name:** Count or Description
+**Field Name:** Count or Description -->
 
 #### Method(s) Used
 <!-- scope: periscope -->
 <!-- info: What methods were used to detect
 anomalies or outliers? -->
-Summarize here. Include links where necessary.
+Google Earth Engine
 
 **Platforms, tools, or libraries**
 
-- Platform, tool, or library: Write description here
-- Platform, tool, or library: Write description here
-- Platform, tool, or library: Write description here
+- Google Earth Engine
+<!-- - Platform, tool, or library: Write description here
+- Platform, tool, or library: Write description here -->
 
-#### Comparative Summary
+<!-- #### Comparative Summary -->
 <!-- scope: microscope -->
 <!-- info: Provide a comparative analysis
 demonstrating before and after
 anomaly handling measures. -->
-Summarize here. Include links, tables, visualizations where available.
+<!-- Summarize here. Include links, tables, visualizations where available.
 
 **Field Name** | **Diff**
 --- | ---
@@ -1659,12 +1754,12 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risk(s)
+#### Residual & Other Risk(s) -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
@@ -1672,25 +1767,25 @@ Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were made? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Dimensionality Reduction
+#### Dimensionality Reduction -->
 <!-- scope: telescope -->
 <!-- info: How many original features were
 collected and how many dimensions
 were reduced? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
@@ -1698,12 +1793,12 @@ Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
-#### Method(s) Used
+#### Method(s) Used -->
 <!-- scope: periscope -->
 <!-- info: What methods were used to reduce the
 dimensionality of the data? What other
 choices were considered? -->
-Summarize here. Include links where
+<!-- Summarize here. Include links where
 necessary.
 
 **Platforms, tools, or libraries**
@@ -1712,14 +1807,14 @@ necessary.
 - Platform, tool, or library: Write description here
 - Platform, tool, or library: Write description here
 
-#### Comparative Summary
+#### Comparative Summary -->
 <!-- scope: microscope -->
 <!-- info: Why were features reduced using this
 method (over others)? Provide
 comparative charts showing before
 and after dimensionality reduction
 processes. -->
-Summarize here. Include links, tables, visualizations where available.
+<!-- Summarize here. Include links, tables, visualizations where available.
 
 **Field Name** | **Diff**
 --- | ---
@@ -1731,12 +1826,12 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risks
+#### Residual & Other Risks -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
@@ -1744,23 +1839,23 @@ Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were made? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Joining Input Sources
+#### Joining Input Sources -->
 <!-- scope: telescope -->
 <!-- info: What were the distinct input sources that were joined? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
@@ -1768,11 +1863,11 @@ Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
-#### Method(s) Used
+#### Method(s) Used -->
 <!-- scope: periscope -->
 <!-- info: What are the shared columns of fields used to join these
 sources? -->
-Summarize here. Include links where necessary.
+<!-- Summarize here. Include links where necessary.
 
 **Platforms, tools, or libraries**
 
@@ -1780,7 +1875,7 @@ Summarize here. Include links where necessary.
 - Platform, tool, or library: Write description here
 - Platform, tool, or library: Write description here
 
-#### Comparative Summary
+#### Comparative Summary -->
 <!-- scope: microscope -->
 <!-- info: Why were features joined using this
 method over others?
@@ -1788,7 +1883,7 @@ method over others?
 Provide comparative charts showing
 before and after dimensionality
 reduction processes. -->
-Summarize here. Include links, tables, visualizations where available.
+<!-- Summarize here. Include links, tables, visualizations where available.
 
 **Field Name** | **Diff**
 --- | ---
@@ -1800,12 +1895,12 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risk(s)
+#### Residual & Other Risk(s) -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
@@ -1813,27 +1908,27 @@ Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where
+<!-- Summarize here. Include links where
 available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were
 made? -->
-Summarize here. Include links where
+<!-- Summarize here. Include links where
 available.
 
-#### Redaction or Anonymization
+#### Redaction or Anonymization -->
 <!-- scope: telescope -->
 <!-- info: Which features were redacted or
 anonymized? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
@@ -1841,11 +1936,11 @@ Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
-#### Method(s) Used
+#### Method(s) Used -->
 <!-- scope: periscope -->
 <!-- info: What methods were used to redact or
 anonymize data? -->
-Summarize here. Include links where necessary.
+<!-- Summarize here. Include links where necessary.
 
 **Platforms, tools, or libraries**
 
@@ -1853,14 +1948,14 @@ Summarize here. Include links where necessary.
 - Platform, tool, or library: Write description here
 - Platform, tool, or library: Write description here
 
-#### Comparative Summary
+#### Comparative Summary -->
 <!-- scope: microscope -->
 <!-- info: Why was data redacted or anonymized
 using this method over others? Provide
 comparative charts showing before
 and after redaction or anonymization
 process. -->
-Summarize here. Include links, tables, visualizations where available.
+<!-- Summarize here. Include links, tables, visualizations where available.
 
 **Field Name** | **Diff**
 --- | ---
@@ -1872,12 +1967,12 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risk(s)
+#### Residual & Other Risk(s) -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
@@ -1885,25 +1980,25 @@ Summarize here. Include links and metrics where applicable.
 
 **Risk Type:** Description + Mitigations
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were
 made? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Others (Please Specify)
+#### Others (Please Specify) -->
 <!-- scope: telescope -->
 <!-- info: What was done? Which features or
 fields were affected? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
@@ -1911,10 +2006,10 @@ Summarize here. Include links where available.
 
 **Field Name:** Count or Description
 
-#### Method(s) Used
+#### Method(s) Used -->
 <!-- scope: periscope -->
 <!-- info: What method were used? -->
-Summarize here. Include links where necessary.
+<!-- Summarize here. Include links where necessary.
 
 **Platforms, tools, or libraries**
 
@@ -1922,13 +2017,13 @@ Summarize here. Include links where necessary.
 - Platform, tool, or library: Write description here
 - Platform, tool, or library: Write description here
 
-#### Comparative Summary
+#### Comparative Summary -->
 <!-- scope: microscope -->
 <!-- info: Why was this method used over
 others? Provide comparative charts
 showing before and after this
 transformation. -->
-Summarize here. Include links, tables, visualizations where available.
+<!-- Summarize here. Include links, tables, visualizations where available.
 
 **Field Name** | **Diff**
 --- | ---
@@ -1940,12 +2035,12 @@ Field Name | Before: After
 
 **Additional Notes:** Add here
 
-#### Residual & Other Risk(s)
+#### Residual & Other Risk(s) -->
 <!-- scope: telescope -->
 <!-- info: What risks were introduced because of
 this transformation? Which risks were
 mitigated? -->
-Summarize here. Include links and metrics where applicable.
+<!-- Summarize here. Include links and metrics where applicable.
 
 **Risk type:** [Description + Mitigations]
 
@@ -1953,28 +2048,28 @@ Summarize here. Include links and metrics where applicable.
 
 **Risk type:** [Description + Mitigations]
 
-#### Human Oversight Measure(s)
+#### Human Oversight Measure(s) -->
 <!-- scope: periscope -->
 <!-- info: What human oversight measures,
 including additional testing,
 investigations and approvals were
 taken due to this transformation? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-#### Additional Considerations
+#### Additional Considerations -->
 <!-- scope: microscope -->
 <!-- info: What additional considerations were made? -->
-Summarize here. Include links where available.
+<!-- Summarize here. Include links where available.
 
-## Annotations & Labeling
+## Annotations & Labeling -->
 <!-- info: Fill this section if any human or algorithmic annotation tasks were
 performed in the creation of your dataset. -->
-#### Annotation Workforce Type
+<!-- #### Annotation Workforce Type -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** annotation
 workforce types or methods used
 to annotate the dataset: -->
-- Annotation Target in Data
+<!-- - Annotation Target in Data
 - Machine-Generated
 - Annotations
 - Human Annotations (Expert)
@@ -1987,7 +2082,7 @@ to annotate the dataset: -->
 - Unlabeled
 - Others (Please specify)
 
-#### Annotation Characteristic(s)
+#### Annotation Characteristic(s) -->
 <!-- scope: periscope -->
 <!-- info: Describe relevant characteristics of annotations
 as indicated. For quality metrics, consider
@@ -2000,7 +2095,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate and complete the
 following for each annotation type.) -->
-**Annotation Type** | **Number**
+<!-- **Annotation Type** | **Number**
 --- | ---
 Number of unique annotations | 123456789
 Total number of annotations | 123456789
@@ -2014,7 +2109,7 @@ Number of annotators per example | 123456789
 
 **Additional Notes:** Add here
 
-#### Annotation Description(s)
+#### Annotation Description(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide descriptions of the annotations
 applied to the dataset. Include links
@@ -2028,7 +2123,7 @@ considerations.
 (Usage Note: Duplicate and complete
 the following for each annotation
 type.) -->
-**(Annotation Type)**
+<!-- **(Annotation Type)**
 
 **Description:** Description of annotations (labels, ratings) produced.
 Include how this was created or authored.
@@ -2043,7 +2138,7 @@ Include how this was created or authored.
 
 **Additional Notes:** Add here
 
-#### Annotation Distribution(s)
+#### Annotation Distribution(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide a distribution of annotations for each
 annotation or class of annotations using the
@@ -2054,7 +2149,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate and complete the
 following for each annotation type.) -->
-**Annotation Type** | **Number**
+<!-- **Annotation Type** | **Number**
 --- | ---
 Annotations (or Class) | 12345 (20%)
 Annotations (or Class) | 12345 (20%)
@@ -2066,7 +2161,7 @@ Annotations (or Class) | 12345 (20%)
 
 **Additional Notes:** Add here
 
-#### Annotation Task(s)
+#### Annotation Task(s) -->
 <!-- scope: microscope -->
 <!-- info: Summarize each task type associated
 with annotations in the dataset.
@@ -2077,7 +2172,7 @@ considerations.
 
 (Usage Note: Duplicate and complete
 the following for each task type.) -->
-**(Task Type)**
+<!-- **(Task Type)**
 
 **Task description:** Summarize here. Include links if available.
 
@@ -2092,9 +2187,9 @@ available.
 
 **Additional notes:** Add here
 
-### Human Annotators
+### Human Annotators -->
 <!-- info: Fill this section if human annotators were used. -->
-#### Annotator Description(s)
+<!-- #### Annotator Description(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide a brief description for each annotator
 pool performing the human annotation task.
@@ -2104,7 +2199,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate and complete the
 following for each annotation type.) -->
-**(Annotation Type)**
+<!-- **(Annotation Type)**
 
 **Task type:** Summarize here. Include links if available.
 
@@ -2129,7 +2224,7 @@ available.
 
 **Additional Notes:** Add here
 
-#### Annotator Task(s)
+#### Annotator Task(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide a brief description for each
 annotator pool performing the human
@@ -2142,7 +2237,7 @@ considerations.
 (Usage Note: Duplicate and complete
 the following for each annotation
 type.) -->
-**(Task Type)**
+<!-- **(Task Type)**
 
 **Task description:** Summarize here. Include links if available.
 
@@ -2157,7 +2252,7 @@ available.
 
 **Additional notes:** Add here
 
-#### Language(s)
+#### Language(s) -->
 <!-- scope: telescope -->
 <!-- info: Provide annotator distributions for
 each annotation type.
@@ -2169,7 +2264,7 @@ considerations.
 (Usage Note: Duplicate and
 complete the following for each
 annotation type.) -->
-**(Annotation Type)**
+<!-- **(Annotation Type)**
 
 - Language [Percentage %]
 - Language [Percentage %]
@@ -2177,7 +2272,7 @@ annotation type.) -->
 
 **Above:** Provide a caption for the above table or visualization.
 
-**Additional Notes:** Add here
+**Additional Notes:** Add here -->
 
 #### Location(s)
 <!-- scope: periscope -->
@@ -2191,15 +2286,20 @@ relevant information or considerations.
 following for each annotation type.) -->
 **(Annotation Type)**
 
+<!-- - Location [Percentage %]
 - Location [Percentage %]
 - Location [Percentage %]
-- Location [Percentage %]
+Geographic Extent -->
+- Geographic Extent East	60.853882
+- Geographic Extent West	105.044678
+- Geographic Extent North	39.318726
+- Geographic Extent South	15.957886
 
-**Above:** Provide a caption for the above table or visualization.
+<!-- **Above:** Provide a caption for the above table or visualization.
 
 **Additional Notes:** Add here
 
-#### Gender(s)
+#### Gender(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide annotator distributions for
 each annotation type.
@@ -2211,7 +2311,7 @@ considerations.
 (Usage Note: Duplicate and complete
 the following for each annotation
 type.) -->
-**(Annotation Type)**
+<!-- **(Annotation Type)**
 
 - Gender [Percentage %]
 - Gender [Percentage %]
@@ -2221,13 +2321,13 @@ type.) -->
 
 **Additional Notes:** Add here
 
-## Validation Types
+## Validation Types -->
 <!-- info: Fill this section if the data in the dataset was validated during
 or after the creation of your dataset. -->
-#### Method(s)
+<!-- #### Method(s) -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable**: -->
-- Data Type Validation
+<!-- - Data Type Validation
 - Range and Constraint Validation
 - Code/cross-reference Validation
 - Structured Validation
@@ -2235,7 +2335,7 @@ or after the creation of your dataset. -->
 - Not Validated
 - Others (Please Specify)
 
-#### Breakdown(s)
+#### Breakdown(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide a description of the fields and data
 points that were validated.
@@ -2245,7 +2345,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate and complete the
 following for each validator type.) -->
-**(Validation Type)**
+<!-- **(Validation Type)**
 
 **Number of Data Points Validated:** 12345
 
@@ -2258,7 +2358,7 @@ Field | 123456
 
 **Above:** Provide a caption for the above table or visualization.
 
-#### Description(s)
+#### Description(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide a description of the methods used to
 validate the dataset.
@@ -2268,7 +2368,7 @@ relevant information or considerations.
 
 (Usage Note: Duplicate and complete the
 following for each validator type.) -->
-**(Validation Type)**
+<!-- **(Validation Type)**
 
 **Method:** Describe the validation method here. Include links where
 necessary.
@@ -2284,22 +2384,24 @@ of the validation. Include visualizations where available.
 
 **Additional Notes:** Add here
 
-### Description of Human Validators
+### Description of Human Validators -->
 <!-- info: Fill this section if the dataset was validated using human
 validators -->
-#### Characteristic(s)
+<!-- #### Characteristic(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide characteristics of the validator
 pool(s). Use additional notes to capture any
 other relevant information or considerations. -->
-**(Validation Type)**
+<!-- **(Validation Type)**
 - Unique validators: 12345
 - Number of examples per validator: 123456
 - Average cost/task/validator: $$$
 - Training provided: Y/N
 - Expertise required: Y/N
 
-#### Description(s)
+
+
+#### Description(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide a brief description of the validator
 pool(s). Use additional notes to capture any
@@ -2307,7 +2409,7 @@ other relevant information or considerations.
 
 (Usage Note: Duplicate and complete the
 following for each validator type.) -->
-**(Validation Type)**
+<!-- **(Validation Type)**
 
 **Validator description:** Summarize here. Include links if available.
 
@@ -2319,14 +2421,14 @@ following for each validator type.) -->
 
 **Additional Notes:** Add here
 
-#### Language(s)
+#### Language(s) -->
 <!-- scope: telescope -->
 <!-- info: Provide validator distributions.
 Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate and complete the following for each annotation type.)-->
-**(Validation Type)**
+<!-- **(Validation Type)**
 
 - Language [Percentage %]
 - Language [Percentage %]
@@ -2336,14 +2438,14 @@ considerations.
 
 **Additional Notes:** Add here
 
-#### Location(s)
+#### Location(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide validator distributions.
 Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate and complete the following for each annotation type.)-->
-**(Validation Type)**
+<!-- **(Validation Type)**
 
 - Location [Percentage %]
 - Location [Percentage %]
@@ -2353,14 +2455,14 @@ considerations.
 
 **Additional Notes:** Add here
 
-#### Gender(s)
+#### Gender(s) -->
 <!-- scope: microscope -->
 <!-- info: Provide validator distributions.
 Use additional notes to capture any other relevant information or
 considerations.
 
 (Usage Note: Duplicate and complete the following for each annotation type.)-->
-**(Validation Type)**
+<!-- **(Validation Type)**
 
 - Gender [Percentage %]
 - Gender [Percentage %]
@@ -2370,14 +2472,14 @@ considerations.
 
 **Additional Notes:** Add here
 
-## Sampling Methods
+## Sampling Methods -->
 <!-- info: Fill out the following block if your dataset employs any sampling
 methods. -->
-#### Method(s) Used
+<!-- #### Method(s) Used -->
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used in the creation of this
 dataset: -->
-- Cluster Sampling
+<!-- - Cluster Sampling
 - Haphazard Sampling
 - Multi-stage Sampling
 - Random Sampling
@@ -2389,7 +2491,7 @@ dataset: -->
 - Unsampled
 - Others (Please specify)
 
-#### Characteristic(s)
+#### Characteristic(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide characteristics of each sampling
 method used.
@@ -2400,7 +2502,7 @@ relevant information or considerations.
 (Usage Note: Duplicate and complete the
 following for each sampling method
 used.) -->
-**(Sampling Type)** | **Number**
+<!-- **(Sampling Type)** | **Number**
 --- | ---
 Upstream Source | Write here
 Total data sampled | 123m
@@ -2417,30 +2519,30 @@ Sample statistic | 123
 
 **Additional Notes:** Add here
 
-#### Sampling Criteria
+#### Sampling Criteria -->
 <!-- scope: microscope -->
 <!-- info: Describe the criteria used to sample data from
 upstream sources.
 
 Use additional notes to capture any other
 relevant information or considerations. -->
-- **Sampling method:** Summarize here. Include links where applicable.
+<!-- - **Sampling method:** Summarize here. Include links where applicable.
 - **Sampling method:** Summarize here. Include links where applicable.
 - **Sampling method:** Summarize here. Include links where applicable.
 
-## Known Applications & Benchmarks
+## Known Applications & Benchmarks -->
 <!-- info: Fill out the following section if your dataset was primarily
 created for use in AI or ML system(s) -->
-#### ML Application(s)
+<!-- #### ML Application(s) -->
 <!-- scope: telescope -->
 <!-- info: Provide a list of key ML tasks
 that the dataset has been
 used for.
 
 Usage Note: Use comma-separated keywords. -->
-*For example: Classification, Regression, Object Detection*
+<!-- *For example: Classification, Regression, Object Detection*
 
-#### Evaluation Result(s)
+#### Evaluation Result(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide the evaluation results from
 models that this dataset has been used
@@ -2452,7 +2554,7 @@ considerations.
 
 (Usage Note: Duplicate and complete the
 following for each model.) -->
-**(Model Name)**
+<!-- **(Model Name)**
 
 **Model Card:** [Link to full model card]
 
@@ -2467,7 +2569,7 @@ Evaluation Results
 
 **Additional Notes:** Add here
 
-#### Evaluation Process(es)
+#### Evaluation Process(es) -->
 <!-- scope: microscope -->
 <!-- info: Provide a description of the evaluation process for
 the model's overall performance or the
@@ -2479,7 +2581,7 @@ information or considerations.
 
 (Usage Note: Duplicate and complete the following
 for each model and method used.) -->
-**(Model Name)**
+<!-- **(Model Name)**
 
 **[Method used]:** Summarize here. Include links where available.
 
@@ -2490,7 +2592,7 @@ for each model and method used.) -->
 
 **Additional Notes:** Add here
 
-#### Description(s) and Statistic(s)
+#### Description(s) and Statistic(s) -->
 <!-- scope: periscope -->
 <!-- info: Provide a description of the model(s) and
 task(s) that this dataset has been used
@@ -2502,7 +2604,7 @@ considerations.
 
 (Usage Note: Duplicate and complete the
 following for each model.) -->
-**(Model Name)**
+<!-- **(Model Name)**
 
 **Model Card:** Link to full model card
 
@@ -2515,7 +2617,7 @@ following for each model.) -->
 
 **Additional Notes:** Add here
 
-#### Expected Performance and Known Caveats
+#### Expected Performance and Known Caveats -->
 <!-- scope: microscope -->
 <!-- info: Provide a description of the expected performance
 and known caveats of the models for this dataset.
@@ -2525,7 +2627,7 @@ information or considerations.
 
 (Usage Note: Duplicate and complete the following
 for each model.) -->
-**(Model Name)**
+<!-- **(Model Name)**
 
 **Expected Performance:** Summarize here. Include links where available.
 
@@ -2535,14 +2637,14 @@ tables as relevant.
 **Additioanl Notes:** Add here
 
 ## Terms of Art
-### Concepts and Definitions referenced in this Data Card
+### Concepts and Definitions referenced in this Data Card -->
 <!-- info: Use this space to include the expansions and definitions of any
 acronyms, concepts, or terms of art used across the Data Card.
 Use standard definitions where possible. Include the source of the definition
 where indicated. If you are using an interpretation,
 adaptation, or modification of the standard definition for the purposes of your
 Data Card or dataset, include your interpretation as well. -->
-#### Term of Art
+<!-- #### Term of Art
 Definition: Write here
 
 Source: Write here and share link
@@ -2626,17 +2728,17 @@ Source: Write here and share link
 
 Interpretation: Write here
 
-## Reflections on Data
+## Reflections on Data -->
 <!-- info: Use this space to include any additional information about the
 dataset that has not been captured by the Data Card. For example,
 does the dataset contain data that might be offensive, insulting, threatening,
 or might otherwise cause anxiety? If so, please contact the appropriate parties
 to mitigate any risks. -->
-### Title
+<!-- ### Title
 Write notes here.
 
 ### Title
 Write notes here.
 
 ### Title
-Write notes here.
+Write notes here. -->
