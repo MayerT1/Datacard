@@ -369,7 +369,7 @@ versioning the dataset.
 <!-- or updating the dataset. -->
 
 <!-- **Feedback:** Summarize here. Include information about criteria for refreshing -->
-<!-- or updating the dataset. --> -->
+<!-- or updating the dataset. -->
 
 <!-- **Additional Notes:** Add here -->
 
@@ -415,7 +415,7 @@ considerations. -->
 - Unknown
 - Others (please specify) -->
 
-#### Sampling of Data Points -->
+#### Sampling of Data Points
 <!-- scope: periscope -->
 <!-- info: Provide link(s) to data points or exploratory demos: -->
 <!-- - Demo Link
@@ -998,7 +998,7 @@ considerations.
 
 **Additional Notes:** Add here
 
-#### Benefit and Value(s) --> -->
+#### Benefit and Value(s) -->
 <!-- scope: periscope -->
 <!-- info: Summarize the benefits of the resulting dataset to its consumers,
 compared to the upstream source(s).
