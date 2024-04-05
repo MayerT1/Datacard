@@ -1,3 +1,5 @@
 # Regional Land Cover Monitoring System Data Card
 
-![DDDDD]([http://url/to/img.png](https://github.com/MayerT1/datacard/blob/main/HKH%20Region.png))
+![DDDDD]((https://github.com/MayerT1/datacard/blob/main/HKH%20Region.png))
+
+![plot](./directory_1/directory_2/.../directory_n/plot.png)
