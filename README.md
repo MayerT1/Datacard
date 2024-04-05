@@ -1,8 +1,4 @@
 # Regional Land Cover Monitoring System Data Card
+Domain
+![HKH Domain](HKH Region.png)
 
-![](HKH Region.png)
-Image
-
-![](HKH Region.png)
-
-![screenshot](screenshot.png)
